@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>
-سعید یابری
+سعید یابری رحمتی
 </title>
 <style>
 /* ==================== تنظیمات فونت ==================== */
@@ -87,7 +87,7 @@ body {
   margin-top:6px;   }
 /* برگ‌های اطراف لوگو */
 .logo-leaf{
-  position:absolute;width:26px;height:45px;background:radial-gradient(circle at 30% 30%,#66bb6a,#2e7d32);
+  position:absolute;width:26px;height:45px;
   border-radius:50% 50% 0 50%/50% 50% 50% 50%;transform:rotate(45deg);z-index:3;   }
 .logo-leaf:nth-child(1){top:10px;left:25px;transform:rotate(-35deg);}
 .logo-leaf:nth-child(2){bottom:50px;right:20px;transform:rotate(55deg);}    /* برگ راست پایین  */
@@ -111,7 +111,7 @@ body {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-base);  }
 .accordion-content.active{
-  max-height:800px;opacity:1;padding:20px 15px;
+  max-height:1000px;opacity:1;padding:20px 15px;
   box-shadow:inset 0 3px 12px rgba(0,0,0,0.08);
 }
 /* رنگ‌های دکمه‌ها */
@@ -168,9 +168,9 @@ body {
 <div class="business-card">
   <div class="nature-background"></div>
   <div class="logo-section">
-    <span class="logo-leaf"></span><span class="logo-leaf"></span><span class="logo-leaf"></span>
+    <span class="logo-leaf">🌿🌿</span><span class="logo-leaf">🌿</span><span class="logo-leaf">🌿🌿</span>
     <!-- برای تغییر لوگو، آدرس تصویر را در src قرار دهید -->
-    <img src="https://cdn.imgurl.ir/uploads/a046769_1.jpg" class="logo" alt="saeidsoft ">
+    <img src="https://cdn.imgurl.ir/uploads/a046769_1.jpg" class="logo" alt="saeidsoft">
     <div class="logo-text">
       <h2>
 سعید سافت   
@@ -184,7 +184,7 @@ body {
   <div class="accordion-item">
     <button id="intro-btn" class="accordion-button" onclick="toggleAccordion(0)">
       درباره ما
-      <svg viewBox="0 0 24 24"><path d="M12 2 C6 8,10 20,12 22 C14 20,18 8,12 2Z"/></svg>
+   <span class="logo-leaf"> 🌿 </span>
     </button>
     <div class="accordion-content" id="intro-content">
       <ul>
@@ -220,7 +220,7 @@ body {
   <div class="accordion-item">
     <button id="contact-btn" class="accordion-button" onclick="toggleAccordion(1)">
       تماس با ما
-      <svg viewBox="0 0 24 24"><path d="M12 2 C6 8,10 20,12 22 C14 20,18 8,12 2Z"/></svg>
+     <span class="logo-leaf"> 🌿 </span>
     </button>
     <div class="accordion-content" id="contact-content">
       <div class="contact-method"><a href="#" onclick="makeCall('+989398508530')"> 📞 ایرانسل  </a></div>
@@ -233,7 +233,7 @@ body {
   <div class="accordion-item">
     <button id="skills-btn" class="accordion-button" onclick="toggleAccordion(2)">
       کارت‌های بانکی
-      <svg viewBox="0 0 24 24"><path d="M12 2 C6 8,10 20,12 22 C14 20,18 8,12 2Z"/></svg>
+    <span class="logo-leaf"> 🌿 </span>
     </button>
     <div class="accordion-content" id="skills-content">
       <div class="contact-method"><a> 🔹 بلو بانک </a><a href="#" onclick="shareNumber('6219861802089788');">6219861802089788</a></div>
@@ -245,7 +245,7 @@ body {
   <div class="accordion-item">
     <button id="address-btn" class="accordion-button" onclick="toggleAccordion(3)">
       آدرس‌ ما
-      <svg viewBox="0 0 24 24"><path d="M12 2 C6 8,10 20,12 22 C14 20,18 8,12 2Z"/></svg>
+     <span class="logo-leaf"> 🌿 </span>
     </button>
     <div class="accordion-content" id="address-content">
       <div id="locations-list"></div>
